@@ -1,0 +1,1 @@
+export type EntryStatus = 'pending' | 'in-progress' | 'finished';
