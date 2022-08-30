@@ -5,8 +5,9 @@ interface ContextProps {
 
     entries: Entry[];
 
-    addNewEntry: (desctiption:string) => void;
+    addNewEntry: (description:string) => void;
     updateEntry: (entry:Entry) => void;
+    getEntries: (entry:Entry[]) => void;
 
 }
 
